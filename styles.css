@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* CSS Reset or Normalize.css can go here */
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('W2.jpg');
+    background-size: cover;  
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-size: 36px; /* Adjust the font size as needed */
+    font-family: 'Helvetica', sans-serif; /* Choose an appropriate font-family */
+    text-transform: uppercase; /* Uppercase the text */
+    letter-spacing: 2px; /* Adjust the letter spacing */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    
+    padding: 10px 20px; /* Add padding for better readability */
+    
+}
+
+
+/* Style the form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Style form input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+button:hover {
+    background-color: #555;
+}
